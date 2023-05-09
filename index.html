@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>MDN Games: Shaders demo</title>
+    <script
+      type="text/javascript"
+      src="https://rawgit.com/patriciogonzalezvivo/glslCanvas/master/dist/GlslCanvas.js"
+    ></script>
+  </head>
+  <body>
+    <div id="new">
+      <div class="img2">
+        <img src="Anime-PNG-Transparent-Picture.png" alt="" />
+      </div>
+      <div class="sh"></div>
+      <canvas
+        class="glslCanvas"
+        id="test"
+        data-fragment-url="shader.frag"
+      ></canvas>
+    </div>
+
+    <div id="new">
+      <div class="img2">
+        <img src="free-png.ru-611.png" width="150" alt="" />
+      </div>
+      <div class="sh"></div>
+      <canvas
+        class="glslCanvas"
+        id="test2"
+        data-fragment-url="shader2.frag"
+      ></canvas>
+    </div>
+
+    <div id="new">
+      <div class="img2">
+        <img src="free-png.ru-611.png" width="150" alt="" />
+      </div>
+      <div class="sh"></div>
+      <canvas
+        class="glslCanvas"
+        id="test2"
+        data-fragment-url="shader3.frag"
+      ></canvas>
+    </div>
+
+    <div id="new">
+      <div class="img2">
+        <img src="free-png.ru-611.png" width="150" alt="" />
+      </div>
+      <div class="sh"></div>
+      <canvas
+        class="glslCanvas"
+        id="test2"
+        data-fragment-url="shader4.frag"
+      ></canvas>
+    </div>
+
+    <div id="new">
+      <div class="img2">
+        <img src="free-png.ru-611.png" width="150" alt="" />
+      </div>
+      <div class="sh"></div>
+      <canvas
+        class="glslCanvas"
+        id="test2"
+        data-fragment-url="shader5.frag"
+      ></canvas>
+    </div>
+
+    <div id="new">
+      <div class="img2">
+        <img src="free-png.ru-611.png" width="150" alt="" />
+      </div>
+      <div class="sh"></div>
+      <canvas
+        class="glslCanvas"
+        id="test2"
+        data-fragment-url="sh.frag"
+      ></canvas>
+    </div>
+
+    <div id="new">
+      <div class="img2">
+        <img src="free-png.ru-611.png" width="150" alt="" />
+      </div>
+      <div class="sh"></div>
+      <canvas
+        class="glslCanvas"
+        id="test2"
+        data-fragment-url="sh2.frag"
+      ></canvas>
+    </div>
+
+    <div id="new">
+      <div class="img2">
+        <img src="free-png.ru-611.png" width="150" alt="" />
+      </div>
+      <div class="sh"></div>
+      <canvas
+        class="glslCanvas"
+        id="test2"
+        data-fragment-url="sh3.frag"
+      ></canvas>
+    </div>
+
+    <div id="new">
+      <div class="img2">
+        <img src="free-png.ru-611.png" width="150" alt="" />
+      </div>
+      <div class="sh"></div>
+      <canvas
+        class="glslCanvas"
+        id="test2"
+        data-fragment-url="sh4.frag"
+      ></canvas>
+    </div>
+
+    <div id="new">
+      <div class="img2">
+        <img src="free-png.ru-611.png" width="150" alt="" />
+      </div>
+      <div class="sh"></div>
+      <canvas
+        class="glslCanvas"
+        id="test2"
+        data-fragment-url="sh5.frag"
+      ></canvas>
+    </div>
+  </body>
+
+  <style>
+    body {
+      background-color: rgb(39, 183, 173);
+    }
+    .sh {
+      position: absolute;
+      height: 40px;
+      width: 100%;
+      bottom: 0;
+      background: linear-gradient(
+        rgba(255, 255, 255, 0) 0%,
+        rgba(0, 0, 0, 0.8) 50%
+      );
+      z-index: 3;
+    }
+    #new {
+      margin: 20px auto;
+      position: relative;
+      width: 300px;
+      height: 150px;
+      border-radius: 60px;
+      overflow: hidden;
+    }
+    .glslCanvas {
+      position: absolute;
+      height: 120px;
+      width: 300px;
+      border-radius: 100px;
+      display: block;
+      bottom: 0px;
+      z-index: 1;
+    }
+    img {
+      max-width: 250px;
+      max-height: 300px;
+      bottom: 0px;
+      left: calc(50% - 250px / 2);
+      display: block;
+      position: absolute;
+      z-index: 2;
+    }
+
+    .img2 {
+    }
+  </style>
+</html>
